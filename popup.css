@@ -1,0 +1,81 @@
+.slidecontainer {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.box {
+    margin: auto;
+    font-size: 30;
+}
+
+body {
+    background-color: rgb(94, 94, 94);
+    width: 360px;
+    height: 240px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.text {
+    font-size: 30;
+    font-weight: bold;
+    text-align: center;
+}
+
+.password {
+    font-size: 30;
+    text-align: center;
+    border: 3px solid #000000;
+    height: 50px;
+}
+
+.myButton {
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 16px 31px;
+    text-decoration: none;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.myButton:hover {
+    background-color: #000000;
+}
+
+.myButton:active {
+    position: relative;
+    top: 3px;
+}
+
+.myButton2 {
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 10px 10px;
+    text-decoration: none;
+    width: 25%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.myButton2:hover {
+    background-color: #000000;
+}
+
+.myButton2:active {
+    position: relative;
+    top: 3px;
+}

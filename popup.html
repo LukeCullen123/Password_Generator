@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div class="box">
+        <h1 id="password" class="password">&#10240</h1>
+        <a href="#" id="passwordGen" class=" myButton">Generate Password</a>
+    </div>
+
+    <div class="slidecontainer">
+        <input type="range" min="5" max="20" value="10" class="slider" id="myRange">
+        <p class="text">Length:<span id="len" class="text"></span></p>
+    </div>
+    <div class="box">
+        <a href="#" id="copy" class=" myButton2">Copy</a>
+    </div>
+
+</body>
+<script nonce="${nonce} " src="./popup.js "></script>
+
+</html>
